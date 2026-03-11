@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm:*)",
+      "Bash(ls -la ~/.claude/statusline* 2>/dev/null && cat ~/.claude/statusline-command.sh 2>/dev/null || echo \"Script not found\")",
+      "Bash(git log:*)",
+      "Bash(git checkout:*)",
+      "Bash(git merge:*)"
+    ]
+  },
+  "outputStyle": "Explanatory"
+}
